@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Enter The data To Be Entered In DataBase"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="Name"
+            android:backgroundTint="@color/black"
+            android:hint="Enter Name"
+            android:inputType="text"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="Name"
+            android:backgroundTint="@color/black"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="Name"
+            android:backgroundTint="@color/black"
+            android:hint="Enter Phone Number"
+            android:inputType="number"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="Name"
+            android:backgroundTint="@color/black"
+            android:hint="Enter Message"
+            android:inputType="text"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/learn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="name"
+            android:backgroundTint="@color/black"
+            android:hint="Where Did you Learn This?-LetsCodee.com"
+            android:inputType="text"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/uuidBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit with Unique Id" />
+
+        <Button
+            android:id="@+id/seqBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit with Sequence Id" />
+
+    </LinearLayout>
+
+
+</ScrollView>

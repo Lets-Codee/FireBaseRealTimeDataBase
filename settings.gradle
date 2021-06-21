@@ -1,0 +1,2 @@
+rootProject.name = "Firebase Demo Real Time DataBase"
+include ':app'
